@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 
 using namespace std;
 
@@ -8,7 +9,7 @@ int main(){
 	int i = 0;
 
 	cout<<"Enter a string: ";
-	cin>>str;
+	getline(cin, str);
 
 	for(i=0; str[i]!='\0'; i++){
 		len++;
